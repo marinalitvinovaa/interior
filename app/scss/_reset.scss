@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px
+}
+
+body {
+min-width: 320px;
+font-family: Arial, sans-serif;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul[class],
+ol[class], li, figure, figcaption, blockquote, dl, dd, fieldset {
+  margin: 0;
+}
+/*
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+*/
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  vertical-align: top;
+  object-fit: cover
+}
+img, svg {
+max-width: 100%;
+max-height: 100%;
+height: auto;
+}
+
+input, button, textarea, select P{
+  font-family: inherit;
+}
+button, a{cursor: pointer;}
+
+
+a[class] {
+  text-decoration: none;
+  color: inherit;
+}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+
+body {
+  min-height: 100vh;
+}
+
+nav, footer, header, aside {
+display: block
+}
+button {
+cursor: pointer
+
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: inherit;
+font-weight: inherit;
+}
+iframe {
+border: none
+}
+
+.visually-hidden {
+position: fixed;
+transform: scale(0);
+
+}
+
+.container {
+max-width: 1240px;
+margin: 0 auto;
+padding: 0 20px;
+
+}

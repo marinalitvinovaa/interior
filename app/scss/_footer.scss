@@ -1,0 +1,38 @@
+.footer {
+  background-color: $blackBg;
+  padding: 40px 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .footer-menu a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: right;
+    color: #ffffff;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-right {
+      text-align: right;
+      max-width: 606px;
+      margin-left: 10px;
+      font-size: 13px;
+      line-height: 150%;
+      color: #545454;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 150%;
+      flex: 1 0 auto;
+    }
+  }
+}

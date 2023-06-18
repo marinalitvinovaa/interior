@@ -1,0 +1,43 @@
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #D6D0CF;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: right;
+    transition: all .3s;
+    color: $blackTxt;
+    &:hover {
+    color: $brownDark;
+    }
+  }
+}
+
+.burger {
+  display: none;
+  width: 30px;
+
+  span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: $brownDark;
+  }
+}
+
+
+
